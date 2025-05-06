@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Instruções sobre produtos Growth</title>
+<style>
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #be0202;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header img {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd700;
+    transform: scale(1.1);
+}
+
+.banner {
+    background: url('C:\Users\Meninas\Desktop\ISA\DG- Growth\d7728877c488095a6bd197c97e77a162.jpg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin: 0;
+    animation: slideDown 1s ease forwards;
+}
+
+@keyframes slideDown {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.conteudo {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.conteudo h2 {
+    font-size: 28px;
+    color: #be0202;
+    margin-bottom: 20px;
+}
+
+.conteudo p, .conteudo ul {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.conteudo ul {
+    list-style: none;
+    padding: 0;
+}
+
+.conteudo ul li {
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.conteudo ul li::before {
+    content: "✔️";
+    position: absolute;
+    left: 0;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.produto {
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 15px;
+    width: 260px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.produto:hover {
+    transform: translateY(-10px);
+}
+
+.produto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.produto h3 {
+    margin: 15px 0 10px;
+    font-size: 20px;
+    color: #be0202;
+}
+
+.produto p {
+    padding: 0 15px 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.produto button {
+    background-color: #be0202;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.produto button:hover {
+    background-color: #990000;
+}
+
+footer {
+    background-color: #be0202;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .banner h1 {
+        font-size: 32px;
+    }
+
+    .produtos {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="C:\Users\Meninas\Downloads\images-removebg-preview.png" alt="Logo"> 
+    <nav>
+        <a href="sustentavel.html">Sustentável</a>
+        <a href="Evolution.html">Evolution</a>
+        <a href="ontato.html">Contato</a>
+    </nav>
+</header>
+
+<div class="banner">
+
+</div>
+<div class="conteudo">
+    <center>
+        <h2>Growth Supplements</h2>
+    </center>
+    <p>
+        A Growth Supplements é uma empresa especializada na fabricação e fornecimento de suplementos alimentares,comprometida com qualidade em todas as etapas,
+    na seleção da matéria-prima à entrega dos produtos.
+   </p>
+   <p>
+     Com foco em inovação,responsabilidade e atendimento de excelência, a marca busca constantemente superar limites,
+    fortalecer sua credibilidade no mercado e atender às necessidades de quem valoriza saúde,desempenho e bem-estar. Guianda pela seriedade e pelo aprimoramento contínuo,
+    a Growth garante que seus clientes tenham sempre a melhor experiência e resultados com seus produtos.
+      </p>
+      <p>
+        Sempre atenta às tendências e às necessidades de quem treina de verdade, Growth vai além da nutrição esportiva.
+        Com o programa Growth Evolution, a marca valoriza a fidelidade do consumidor, transformando cada embalagem em pontos que podem ser trocados 
+        por podutos. Mais do que um programa de recompensas, o Growth Evolution é um convite à evolução constante do corpo, dooss hábito e na escolha de suplemntos confiáveis.
+      </p>
+      <center>
+        <h2>Growth Evolution</h2>
+    </center>
+    <p>
+        Pensando no futuro e no planeta, a Growth aposta agora em soluções sustentáveis que tornam a experiência ainda mais prática e responsável. Uma das inovações é a criação 
+        de uma embalagem ecológica feita com papel vegatal, 100% biodegradável , que também fnciona omo scoop (colher medidora) e recipiente para transpoorte de uma dose única de 
+        Whey Protein. Essa novidade resolve uma dor comum dos consumidores e reforça o compromisso da marca com o meio ambiente.
+    </p>
+    <p>
+        Na Growth Supplements, você encontra mais do que suplementos. Você encontra confiança,evolução e propósito. Aqui, qualidade e respeito andam lado a lado,
+        porque o seu desempenho começa comescolhas conscientes!
+    </p>
+
+    <h1>Participe da nossa promoção!</h1>
+    <p>
+      A Growth Supplements é referência nacional quando o assunto é suplementação de qualidade. Com o compromisso de oferecer os melhores produtos e benefícios aos seus clientes, 
+      a Growth lança a promoção Growth Evolution — a oportunidade perfeita para transformar seu esforço nos treinos em conquistas de verdade!
+    </p>
+    <p>
+      Funciona assim: a cada embalagem de produto da Growth que você cadastrar, você acumula pontos. Esses pontos podem ser trocados por prêmios incríveis, pensados especialmente 
+      para quem leva o treino a sério. É simples, é justo, é Growth!
+    </p>
+    <p>Somente na Growth Supplements você encontra:</p>
+    <ul>
+      <li>As melhores ofertas do mercado;</li>
+      <li>Benefícios exclusivos para clientes fiéis;</li>
+      <li>Uma chance de fazer o seu suor valer ainda mais!</li>
+    </ul>
+    <p>Seu treino agora vale prêmios! Bora transformar suor em conquistas? Participe da Growth Evolution e veja como cada treino pode te levar ainda mais longe!</p>
+
+    <h2>Faça seu cadastro na aba Evolution!</h2>
+    
+  
+</div>
+
+<footer>
+    <p>&copy; Growth Supplements Produtos Alimentícios 2025</p>
+</footer>
+
+</body>
+</html>
